@@ -1,0 +1,55 @@
+.eeveelution {
+  padding: $padding-3;
+  &__container {
+    background-color: $color-blue-400;
+    padding: $padding-3;
+    border-radius: $border-radius-3;
+
+    .card {
+      padding: $padding-1;
+      display: flex;
+      flex-direction: column;
+      gap: $gap-3;
+      border-radius: $border-radius-3;
+      background-color: #fff;
+      width: $width-29;
+
+      &__header {
+        border-radius: $border-radius-3;
+        padding: $padding-1;
+        background-color: $color-gray-200;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-img {
+          width: $width-21;
+        }
+      }
+
+      &__description {
+        display: flex;
+        justify-content: space-between;
+
+        .pokemon {
+          &__name-region-container {
+            background-color: $color-rose-200;
+            display: flex;
+            flex-direction: column;
+            gap: $gap-5;
+          }
+          &__name {
+          }
+          &__region {
+          }
+          &__dex {
+          }
+        }
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: $margin-3;
+    }
+  }
+}

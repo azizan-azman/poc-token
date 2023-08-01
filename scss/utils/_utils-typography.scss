@@ -1,0 +1,97 @@
+// Utils for Typography
+.font-thin {
+  font-weight: 100;
+}
+.font-extralight {
+  font-weight: 200;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-extrabold {
+  font-weight: 800;
+}
+.font-black {
+  font-weight: 900;
+}
+
+.text-xs {
+  font-size: $font-size-1;
+  line-height: $line-height-unit-2;
+}
+.text-sm {
+  font-size: $font-size-2;
+  line-height: $line-height-unit-3;
+}
+.text-base {
+  font-size: $font-size-3;
+  line-height: $line-height-unit-4;
+}
+.text-lg {
+  font-size: $font-size-4;
+  line-height: $line-height-unit-5;
+}
+.text-xl {
+  font-size: $font-size-5;
+  line-height: $line-height-unit-5;
+}
+.text-2xl {
+  font-size: $font-size-6;
+  line-height: $line-height-unit-6;
+}
+
+.leading-none {
+  line-height: $line-height-unitless-1;
+}
+.leading-tight {
+  line-height: $line-height-unitless-2;
+}
+.leading-snug {
+  line-height: $line-height-unitless-3;
+}
+.leading-normal {
+  line-height: $line-height-unitless-4;
+}
+.leading-relaxed {
+  line-height: $line-height-unitless-5;
+}
+.leading-loose {
+  line-height: $line-height-unitless-6;
+}
+
+.leading-1 {
+  line-height: $line-height-unit-1;
+}
+.leading-2 {
+  line-height: $line-height-unit-2;
+}
+.leading-3 {
+  line-height: $line-height-unit-3;
+}
+.leading-4 {
+  line-height: $line-height-unit-4;
+}
+.leading-5 {
+  line-height: $line-height-unit-5;
+}
+.leading-6 {
+  line-height: $line-height-unit-6;
+}
+.leading-7 {
+  line-height: $line-height-unit-7;
+}
+.leading-8 {
+  line-height: $line-height-unit-8;
+}

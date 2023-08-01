@@ -1,0 +1,27 @@
+.rounded-none {
+  border-radius: 0px;
+}
+.rounded-sm {
+  border-radius: $border-radius-1;
+}
+.rounded {
+  border-radius: $border-radius-2;
+}
+.rounded-md {
+  border-radius: $border-radius-3;
+}
+.rounded-lg {
+  border-radius: $border-radius-4;
+}
+.rounded-xl {
+  border-radius: $border-radius-5;
+}
+.rounded-2xl {
+  border-radius: $border-radius-6;
+}
+.rounded-3xl {
+  border-radius: $border-radius-7;
+}
+.rounded-full {
+  border-radius: 9999px;
+}

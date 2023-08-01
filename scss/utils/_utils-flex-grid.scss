@@ -1,0 +1,22 @@
+// Utils for Flex & Grid
+.gap-none {
+  gap: 0;
+}
+.gap-xs {
+  gap: $gap-2;
+}
+.gap-sm {
+  gap: $gap-4;
+}
+.gap-md {
+  gap: $gap-5;
+}
+.gap-lg {
+  gap: $gap-7;
+}
+.gap-xl {
+  gap: $gap-8;
+}
+.gap-2xl {
+  gap: $gap-11;
+}
