@@ -678,15 +678,19 @@ body {
   background-color: #60a5fa;
   padding: 3rem;
   border-radius: 0.375rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: center;
 }
 .eeveelution__container .card {
-  padding: 1rem;
+  padding: 1rem 1.25rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
   border-radius: 0.375rem;
   background-color: #fff;
-  width: 15rem;
+  width: 18rem;
 }
 .eeveelution__container .card__header {
   border-radius: 0.375rem;
@@ -704,10 +708,40 @@ body {
   justify-content: space-between;
 }
 .eeveelution__container .card__description .pokemon__name-region-container {
-  background-color: #fecdd3;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+}
+.eeveelution__container .card__description .pokemon__name {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.eeveelution__container .card__description .pokemon__region {
+  font-size: 1.125rem;
+}
+.eeveelution__container .card__description .pokemon__region-gen {
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin-right: 0.3rem;
+}
+.eeveelution__container .card__description .pokemon__dex {
+  font-size: 1.25rem;
+}
+.eeveelution__container .card__tag {
+  margin-top: 2rem;
+  align-self: center;
+  padding: 1rem 2rem;
+  min-width: 11rem;
+  border-radius: 10rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.eeveelution__container .card__tag--gray {
+  background-color: #94a3b8;
+}
+.eeveelution__container .card__tag-type {
+  letter-spacing: 0.5em;
 }
 .eeveelution__container:not(:last-child) {
   margin-bottom: 3rem;

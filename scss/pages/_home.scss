@@ -1,18 +1,23 @@
 .eeveelution {
   padding: $padding-3;
+
   &__container {
     background-color: $color-blue-400;
     padding: $padding-3;
     border-radius: $border-radius-3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-items: center;
 
     .card {
-      padding: $padding-1;
+      padding: 1rem 1.25rem;
       display: flex;
       flex-direction: column;
-      gap: $gap-3;
+      gap: $gap-7;
       border-radius: $border-radius-3;
       background-color: #fff;
-      width: $width-29;
+      width: $width-32;
 
       &__header {
         border-radius: $border-radius-3;
@@ -33,18 +38,45 @@
 
         .pokemon {
           &__name-region-container {
-            background-color: $color-rose-200;
             display: flex;
             flex-direction: column;
             gap: $gap-5;
           }
           &__name {
+            font-weight: bold;
+            font-size: $font-size-5;
           }
           &__region {
+            font-size: $font-size-4;
+            &-gen {
+              font-size: $font-size-2;
+              font-weight: 300;
+              margin-right: 0.3rem;
+            }
           }
           &__dex {
+            font-size: $font-size-5;
           }
         }
+      }
+
+      &__tag {
+        margin-top: $margin-2;
+        align-self: center;
+        padding: 1rem 2rem;
+        min-width: $width-25;
+        border-radius: 10rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-white;
+
+        &--gray {
+          background-color: $color-gray-400;
+        }
+      }
+
+      &__tag-type {
+        letter-spacing: 0.5em;
       }
     }
 
