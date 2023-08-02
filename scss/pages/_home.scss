@@ -2,39 +2,43 @@
   padding: $padding-3;
 
   &__container {
-    background-color: $color-blue-400;
-    padding: $padding-3;
+    width: 90rem;
+    margin: 0 auto;
+    background-color: $color-gray-800;
+    padding: $padding-4;
     border-radius: $border-radius-3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    grid-gap: 1rem;
     justify-items: center;
 
     .card {
-      padding: 1rem 1.25rem;
+      padding: 1.25rem 1.25rem 2rem 1.25rem;
       display: flex;
       flex-direction: column;
       gap: $gap-7;
       border-radius: $border-radius-3;
       background-color: #fff;
-      width: $width-32;
+      width: $width-34;
 
       &__header {
         border-radius: $border-radius-3;
-        padding: $padding-1;
+        padding: $padding-2;
         background-color: $color-gray-200;
         display: flex;
         justify-content: center;
         align-items: center;
 
         &-img {
-          width: $width-21;
+          // width: $width-21;
+          height: $height-25;
         }
       }
 
       &__description {
         display: flex;
         justify-content: space-between;
+        padding: 0 0.75rem;
 
         .pokemon {
           &__name-region-container {
@@ -44,39 +48,66 @@
           }
           &__name {
             font-weight: bold;
-            font-size: $font-size-5;
+            font-size: $font-size-6;
           }
           &__region {
-            font-size: $font-size-4;
+            font-size: $font-size-5;
             &-gen {
-              font-size: $font-size-2;
+              font-size: $font-size-3;
               font-weight: 300;
               margin-right: 0.3rem;
+              text-transform: uppercase;
             }
           }
           &__dex {
-            font-size: $font-size-5;
+            font-size: $font-size-6;
           }
         }
       }
 
       &__tag {
-        margin-top: $margin-2;
+        margin-top: $margin-5;
         align-self: center;
-        padding: 1rem 2rem;
-        min-width: $width-25;
+        padding: 1.25rem 2rem;
+        width: $width-28;
         border-radius: 10rem;
         text-align: center;
         text-transform: uppercase;
         color: $color-white;
 
-        &--gray {
+        &--normal {
           background-color: $color-gray-400;
+        }
+        &--water {
+          background-color: $color-blue-500;
+        }
+        &--electric {
+          background-color: $color-yellow-400;
+        }
+        &--fire {
+          background-color: $color-red-600;
+        }
+        &--psychic {
+          background-color: $color-pink-500;
+        }
+        &--fairy {
+          background-color: $color-pink-300;
+        }
+        &--dark {
+          background-color: $color-yellow-950;
+        }
+        &--grass {
+          background-color: $color-green-500;
+        }
+        &--ice {
+          background-color: $color-teal-400;
         }
       }
 
       &__tag-type {
         letter-spacing: 0.5em;
+        font-size: $font-size-3;
+        font-weight: 500;
       }
     }
 

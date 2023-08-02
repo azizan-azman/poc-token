@@ -675,37 +675,40 @@ body {
   padding: 3rem;
 }
 .eeveelution__container {
-  background-color: #60a5fa;
-  padding: 3rem;
+  width: 90rem;
+  margin: 0 auto;
+  background-color: #1e293b;
+  padding: 4rem;
   border-radius: 0.375rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-gap: 1rem;
   justify-items: center;
 }
 .eeveelution__container .card {
-  padding: 1rem 1.25rem;
+  padding: 1.25rem 1.25rem 2rem 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   border-radius: 0.375rem;
   background-color: #fff;
-  width: 18rem;
+  width: 24rem;
 }
 .eeveelution__container .card__header {
   border-radius: 0.375rem;
-  padding: 1rem;
+  padding: 2rem;
   background-color: #e2e8f0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .eeveelution__container .card__header-img {
-  width: 7rem;
+  height: 11rem;
 }
 .eeveelution__container .card__description {
   display: flex;
   justify-content: space-between;
+  padding: 0 0.75rem;
 }
 .eeveelution__container .card__description .pokemon__name-region-container {
   display: flex;
@@ -714,34 +717,61 @@ body {
 }
 .eeveelution__container .card__description .pokemon__name {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 .eeveelution__container .card__description .pokemon__region {
-  font-size: 1.125rem;
-}
-.eeveelution__container .card__description .pokemon__region-gen {
-  font-size: 0.875rem;
-  font-weight: 300;
-  margin-right: 0.3rem;
-}
-.eeveelution__container .card__description .pokemon__dex {
   font-size: 1.25rem;
 }
+.eeveelution__container .card__description .pokemon__region-gen {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-right: 0.3rem;
+  text-transform: uppercase;
+}
+.eeveelution__container .card__description .pokemon__dex {
+  font-size: 1.5rem;
+}
 .eeveelution__container .card__tag {
-  margin-top: 2rem;
+  margin-top: 5rem;
   align-self: center;
-  padding: 1rem 2rem;
-  min-width: 11rem;
+  padding: 1.25rem 2rem;
+  width: 14rem;
   border-radius: 10rem;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
 }
-.eeveelution__container .card__tag--gray {
+.eeveelution__container .card__tag--normal {
   background-color: #94a3b8;
+}
+.eeveelution__container .card__tag--water {
+  background-color: #3b82f6;
+}
+.eeveelution__container .card__tag--electric {
+  background-color: #facc15;
+}
+.eeveelution__container .card__tag--fire {
+  background-color: #dc2626;
+}
+.eeveelution__container .card__tag--psychic {
+  background-color: #ec4899;
+}
+.eeveelution__container .card__tag--fairy {
+  background-color: #f9a8d4;
+}
+.eeveelution__container .card__tag--dark {
+  background-color: #422006;
+}
+.eeveelution__container .card__tag--grass {
+  background-color: #22c55e;
+}
+.eeveelution__container .card__tag--ice {
+  background-color: #2dd4bf;
 }
 .eeveelution__container .card__tag-type {
   letter-spacing: 0.5em;
+  font-size: 1rem;
+  font-weight: 500;
 }
 .eeveelution__container:not(:last-child) {
   margin-bottom: 3rem;
