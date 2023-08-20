@@ -24,6 +24,7 @@
   "homepage": "https://github.com/azizan-azman/poc-token#readme",
   "devDependencies": {
     "@divriots/style-dictionary-to-figma": "^0.4.0",
+    "@tokens-studio/sd-transforms": "^0.11.0",
     "autoprefixer": "^10.4.14",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^10.1.0",
