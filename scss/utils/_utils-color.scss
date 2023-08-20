@@ -1,9 +1,9 @@
 // Utils for colors
 .bg-color-white {
-  background-color: $color-white;
+  background-color: $color-base-white;
 }
 .bg-color-black {
-  background-color: $color-black;
+  background-color: $color-base-black;
 }
 .bg-color-gray {
   background-color: $color-gray-500;
@@ -34,10 +34,10 @@
 }
 
 .color-white {
-  color: $color-white;
+  color: $color-base-white;
 }
 .color-black {
-  color: $color-black;
+  color: $color-base-black;
 }
 .color-gray {
   color: $color-gray-500;

@@ -1,9 +1,20 @@
-@import "variables/variables-border";
-@import "variables/variables-color";
-@import "variables/variables-flex-grid";
-@import "variables/variables-sizing";
-@import "variables/variables-spacing";
-@import "variables/variables-typography";
+@import "variables/variables.border.border-radius";
+@import "variables/variables.border.border-width";
+@import "variables/variables.color";
+@import "variables/variables.effects.box-shadow";
+@import "variables/variables.effects.opacity";
+@import "variables/variables.sizing";
+@import "variables/variables.spacing";
+@import "variables/variables.typography.font-family";
+@import "variables/variables.typography.font-size";
+@import "variables/variables.typography.font-weight";
+@import "variables/variables.typography.letter-spacing";
+@import "variables/variables.typography.line-height";
+
+// @import "themes/themes.business";
+@import "themes/themes.casual";
+
+@import "components/card";
 
 @import "mixins/mixins";
 @import "functions/functions";
@@ -12,7 +23,6 @@
 
 @import "utils/utils-border";
 @import "utils/utils-color";
-@import "utils/utils-flex-grid";
 @import "utils/utils-sizing";
 @import "utils/utils-spacing";
 @import "utils/utils-typography";

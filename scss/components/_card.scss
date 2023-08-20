@@ -1,0 +1,141 @@
+.card {
+  padding: 1.25rem 1.25rem 2rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-8;
+  border-radius: $border-radius-theme;
+  background-color: $color-base-white;
+  width: $sizing-34;
+  box-shadow: $box-shadow-theme;
+
+  &__header {
+    position: relative;
+    border-radius: $border-radius-theme;
+    padding: $spacing-12;
+    background-color: $color-secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-img {
+      height: $sizing-25;
+    }
+  }
+
+  &__description {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.75rem;
+
+    .pokemon {
+      &__name-region-container {
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-6;
+      }
+      &__name {
+        font-weight: bold;
+        font-size: $font-size-6;
+      }
+      &__region {
+        font-size: $font-size-5;
+        &-gen {
+          font-size: $font-size-3;
+          font-weight: 300;
+          margin-right: 0.3rem;
+          text-transform: uppercase;
+        }
+      }
+      &__dex {
+        font-size: $font-size-6;
+      }
+    }
+  }
+
+  &__button {
+    margin-top: $spacing-19;
+    align-self: center;
+    padding: 1.25rem 2rem;
+    border-radius: $border-radius-theme-cta;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-base-white;
+    background-color: $color-blue-700;
+    box-shadow: $box-shadow-theme-cta;
+
+    &--primary {
+      background-color: $color-primary;
+    }
+  }
+
+  &__button-text {
+    letter-spacing: 0.5em;
+    font-size: $font-size-3;
+    font-weight: 500;
+  }
+
+  &__tagging {
+    position: absolute;
+    bottom: -0.75rem;
+    right: 0.75rem;
+    margin-top: $spacing-19;
+    align-self: center;
+    padding: 0.75rem 1rem;
+    border-radius: $border-radius-theme;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-base-white;
+
+    &--normal {
+      background-color: $color-gray-400;
+      // box-shadow: 0 10px 15px -3px rgba($color-gray-400, 0.7),
+      //   0 4px 6px -4px rgba($color-gray-400, 0.7);
+    }
+    &--water {
+      background-color: $color-blue-500;
+      // box-shadow: 0 10px 15px -3px rgba($color-blue-500, 0.7),
+      //   0 4px 6px -4px rgba($color-blue-500, 0.7);
+    }
+    &--electric {
+      background-color: $color-yellow-400;
+      // box-shadow: 0 10px 15px -3px rgba($color-yellow-400, 0.7),
+      //   0 4px 6px -4px rgba($color-yellow-400, 0.7);
+    }
+    &--fire {
+      background-color: $color-red-600;
+      // box-shadow: 0 10px 15px -3px rgba($color-red-600, 0.7),
+      //   0 4px 6px -4px rgba($color-red-600, 0.7);
+    }
+    &--psychic {
+      background-color: $color-pink-500;
+      // box-shadow: 0 10px 15px -3px rgba($color-pink-500, 0.7),
+      //   0 4px 6px -4px rgba($color-pink-500, 0.7);
+    }
+    &--fairy {
+      background-color: $color-pink-300;
+      // box-shadow: 0 10px 15px -3px rgba($color-pink-300, 0.7),
+      //   0 4px 6px -4px rgba($color-pink-300, 0.7);
+    }
+    &--dark {
+      background-color: $color-yellow-950;
+      // box-shadow: 0 10px 15px -3px rgba($color-yellow-950, 0.7),
+      //   0 4px 6px -4px rgba($color-yellow-950, 0.7);
+    }
+    &--grass {
+      background-color: $color-green-500;
+      // box-shadow: 0 10px 15px -3px rgba($color-green-500, 0.7),
+      //   0 4px 6px -4px rgba($color-green-500, 0.7);
+    }
+    &--ice {
+      background-color: $color-teal-400;
+      // box-shadow: 0 10px 15px -3px rgba($color-teal-400, 0.7),
+      //   0 4px 6px -4px rgba($color-teal-400, 0.7);
+    }
+  }
+
+  &__tagging-type {
+    letter-spacing: 0.5em;
+    font-size: $font-size-1;
+    font-weight: 500;
+  }
+}

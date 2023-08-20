@@ -1,118 +1,19 @@
 .eeveelution {
-  padding: $padding-3;
+  padding: $spacing-16;
 
   &__container {
     width: 90rem;
     margin: 0 auto;
-    background-color: $color-gray-800;
-    padding: $padding-4;
-    border-radius: $border-radius-3;
+    // background-color: $color-gray-800;
+    padding: $spacing-18;
+    border-radius: $border-radius-theme;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     justify-items: center;
 
-    .card {
-      padding: 1.25rem 1.25rem 2rem 1.25rem;
-      display: flex;
-      flex-direction: column;
-      gap: $gap-7;
-      border-radius: $border-radius-3;
-      background-color: #fff;
-      width: $width-34;
-
-      &__header {
-        border-radius: $border-radius-3;
-        padding: $padding-2;
-        background-color: $color-gray-200;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        &-img {
-          // width: $width-21;
-          height: $height-25;
-        }
-      }
-
-      &__description {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 0.75rem;
-
-        .pokemon {
-          &__name-region-container {
-            display: flex;
-            flex-direction: column;
-            gap: $gap-5;
-          }
-          &__name {
-            font-weight: bold;
-            font-size: $font-size-6;
-          }
-          &__region {
-            font-size: $font-size-5;
-            &-gen {
-              font-size: $font-size-3;
-              font-weight: 300;
-              margin-right: 0.3rem;
-              text-transform: uppercase;
-            }
-          }
-          &__dex {
-            font-size: $font-size-6;
-          }
-        }
-      }
-
-      &__tag {
-        margin-top: $margin-5;
-        align-self: center;
-        padding: 1.25rem 2rem;
-        width: $width-28;
-        border-radius: 10rem;
-        text-align: center;
-        text-transform: uppercase;
-        color: $color-white;
-
-        &--normal {
-          background-color: $color-gray-400;
-        }
-        &--water {
-          background-color: $color-blue-500;
-        }
-        &--electric {
-          background-color: $color-yellow-400;
-        }
-        &--fire {
-          background-color: $color-red-600;
-        }
-        &--psychic {
-          background-color: $color-pink-500;
-        }
-        &--fairy {
-          background-color: $color-pink-300;
-        }
-        &--dark {
-          background-color: $color-yellow-950;
-        }
-        &--grass {
-          background-color: $color-green-500;
-        }
-        &--ice {
-          background-color: $color-teal-400;
-        }
-      }
-
-      &__tag-type {
-        letter-spacing: 0.5em;
-        font-size: $font-size-3;
-        font-weight: 500;
-      }
-    }
-
     &:not(:last-child) {
-      margin-bottom: $margin-3;
+      margin-bottom: $spacing-16;
     }
   }
 }

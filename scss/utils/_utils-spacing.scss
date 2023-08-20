@@ -1,67 +1,88 @@
-// Utils for margin & padding
+// Utils for spacing
 .margin-none {
   margin: 0;
 }
-
 .margin-xs {
-  margin: $margin-2;
+  margin: $spacing-12;
 }
 .margin-sm {
-  margin: $margin-4;
+  margin: $spacing-18;
 }
 .margin-md {
-  margin: $margin-5;
+  margin: $spacing-19;
 }
 .margin-lg {
-  margin: $margin-7;
+  margin: $spacing-21;
 }
 .margin-xl {
-  margin: $margin-8;
+  margin: $spacing-22;
 }
 .margin-2xl {
-  margin: $margin-11;
+  margin: $spacing-25;
 }
 
 .margin-bottom-none {
   margin-bottom: 0;
 }
 .margin-bottom-xs {
-  margin-bottom: $margin-2;
+  margin-bottom: $spacing-12;
 }
 .margin-bottom-sm {
-  margin-bottom: $margin-4;
+  margin-bottom: $spacing-18;
 }
 .margin-bottom-md {
-  margin-bottom: $margin-5;
+  margin-bottom: $spacing-19;
 }
 .margin-bottom-lg {
-  margin-bottom: $margin-7;
+  margin-bottom: $spacing-21;
 }
 .margin-bottom-xl {
-  margin-bottom: $margin-8;
+  margin-bottom: $spacing-22;
 }
 .margin-bottom-2xl {
-  margin-bottom: $margin-11;
+  margin-bottom: $spacing-25;
 }
 
 .margin-top-none {
   margin-top: 0;
 }
 .margin-top-xs {
-  margin-top: $margin-2;
+  margin-top: $spacing-12;
 }
 .margin-top-sm {
-  margin-top: $margin-4;
+  margin-top: $spacing-18;
 }
 .margin-top-md {
-  margin-top: $margin-5;
+  margin-top: $spacing-19;
 }
 .margin-top-lg {
-  margin-top: $margin-7;
+  margin-top: $spacing-21;
 }
 .margin-top-xl {
-  margin-top: $margin-8;
+  margin-top: $spacing-22;
 }
 .margin-top-2xl {
-  margin-top: $margin-11;
+  margin-top: $spacing-25;
+}
+
+.gap-none {
+  gap: 0;
+}
+.gap-xs {
+  gap: $spacing-3;
+}
+.gap-sm {
+  gap: $spacing-5;
+}
+.gap-md {
+  gap: $spacing-6;
+}
+.gap-lg {
+  gap: $spacing-8;
+}
+.gap-xl {
+  gap: $spacing-9;
+}
+.gap-2xl {
+  gap: $spacing-12;
 }

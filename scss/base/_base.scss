@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  font-family: $font-primary;
+  font-family: $font-family-1;
   font-weight: 400;
   line-height: $line-height-unitless-4;
+  background-color: $color-neutral-200;
 }
