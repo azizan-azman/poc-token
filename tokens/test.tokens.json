@@ -858,10 +858,6 @@
       "7": {
         "value": "1.5rem",
         "type": "borderRadius"
-      },
-      "full": {
-        "value": "100%",
-        "type": "borderRadius"
       }
     },
     "borderWidth": {
@@ -1300,7 +1296,7 @@
       "type": "borderRadius"
     },
     "borderRadius-full": {
-      "value": "{borderRadius.full}",
+      "value": "100%",
       "type": "borderRadius"
     },
     "boxShadow-none": {
@@ -1524,7 +1520,7 @@
       "type": "borderRadius"
     },
     "borderRadius-full": {
-      "value": "{borderRadius.full}",
+      "value": "100%",
       "type": "borderRadius"
     },
     "boxShadow-none": {
@@ -1748,7 +1744,7 @@
       "type": "borderRadius"
     },
     "borderRadius-full": {
-      "value": "{borderRadius.full}",
+      "value": "100%",
       "type": "borderRadius"
     },
     "boxShadow-none": {
