@@ -20,18 +20,19 @@ StyleDictionary.registerTransformGroup({
   transforms: [...transforms, "attribute/cti", "name/cti/kebab"],
 });
 
-const tokenFilter = (cat) => (token) => {
-  return token.attributes.category === cat;
+const tokenFilter = (type, theme) => (token) => {
+  return token.attributes.type === type && token.attributes.category === theme;
 };
 
 const generateFilesArr = (tokensKeys, theme) => {
-  const nestedObject = tokensKeys[theme];
-
+  const nestedObject = tokensKeys[theme][theme];
   const nestedKeys = Object.keys(nestedObject);
-  console.log("nestedKeys is", nestedKeys);
-  return nestedKeys.map((cat) => ({
-    filter: tokenFilter(cat),
-    destination: `my-build2/${theme}/${theme.toLowerCase()}-${cat}.scss`,
+  return nestedKeys.map((type) => ({
+    filter: tokenFilter(type, theme),
+    destination:
+      theme === "global" || theme === "semantics"
+        ? `my-build2/${theme}/_${theme.toLowerCase()}.${type}.scss`
+        : `my-build2/themes/${theme}/_${theme.toLowerCase()}.${type}.scss`,
     format: "scss/variables",
     options: {
       outputReferences: true,

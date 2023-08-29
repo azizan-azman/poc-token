@@ -1244,6 +1244,10 @@
         "button-primary": {
           "value": "{global.color.blue.700}",
           "type": "color"
+        },
+        "bg-neutral": {
+          "value": "{global.color.neutral.200}",
+          "type": "color"
         }
       },
       "spacing": {
@@ -1316,7 +1320,7 @@
           "type": "borderRadius"
         },
         "full": {
-          "value": "100%",
+          "value": "9999px",
           "type": "borderRadius"
         }
       },
@@ -1430,35 +1434,21 @@
       },
       "borderRadius": {
         "theme": {
-          "value": "0",
+          "value": "{semantics.borderRadius.none}",
           "type": "borderRadius"
         },
         "theme-cta": {
-          "value": "0",
+          "value": "{semantics.borderRadius.none}",
           "type": "borderRadius"
         }
       },
       "boxShadow": {
         "theme": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba(0,0,0,0)",
-            "type": "dropShadow"
-          },
+          "value": "{semantics.boxShadow.none}",
           "type": "boxShadow"
         },
         "theme-cta": {
-          "value": {
-            "x": "0",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba(0,0,0,0)",
-            "type": "dropShadow"
-          },
+          "value": "{semantics.boxShadow.none}",
           "type": "boxShadow"
         }
       }
@@ -1478,17 +1468,17 @@
       },
       "borderRadius": {
         "theme": {
-          "value": "{global.borderRadius.5}",
+          "value": "{semantics.borderRadius.xl}",
           "type": "borderRadius"
         },
         "theme-cta": {
-          "value": "9999px",
+          "value": "{semantics.borderRadius.full}",
           "type": "borderRadius"
         }
       },
       "boxShadow": {
         "theme": {
-          "value": "{global.boxShadow.5}",
+          "value": "{semantics.boxShadow.xl}",
           "type": "boxShadow"
         },
         "theme-cta": {
@@ -1498,7 +1488,7 @@
               "y": "10px",
               "blur": "15px",
               "spread": "-3px",
-              "color": "rgba({color.primary},0.7)",
+              "color": "rgba( {theme-casual.color.primary},0.7)",
               "type": "dropShadow"
             },
             {
@@ -1506,7 +1496,7 @@
               "y": "4px",
               "blur": "6px",
               "spread": "-4px",
-              "color": "rgba({color.primary},0.7)",
+              "color": "rgba( {theme-casual.color.primary},0.7)",
               "type": "dropShadow"
             }
           ],
