@@ -1,0 +1,25 @@
+.theme-selector {
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+
+  label {
+    margin-right: 10px;
+  }
+
+  select {
+    color: $color-base-white;
+    @include themify($themes) {
+      background-color: themed(colorPrimary);
+      border-radius: themed(borderRadiusTheme);
+      box-shadow: themed(boxShadowThemeCTA);
+    }
+
+    padding: 1.2rem 1rem;
+
+    option {
+      background: $color-base-white;
+      color: $color-base-black;
+    }
+  }
+}

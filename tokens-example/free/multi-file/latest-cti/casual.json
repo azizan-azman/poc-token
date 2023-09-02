@@ -22,7 +22,7 @@
     },
     "boxShadow": {
       "cta": {
-        "value": "{global.boxShadow.5}",
+        "value": "{global.boxShadow.4}",
         "type": "boxShadow"
       },
       "default": {

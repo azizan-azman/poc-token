@@ -3,16 +3,22 @@
   display: flex;
   flex-direction: column;
   gap: $spacing-8;
-  border-radius: $border-radius-theme;
+  @include themify($themes) {
+    border-radius: themed(borderRadiusTheme);
+    box-shadow: themed(boxShadowTheme);
+  }
+
   background-color: $color-base-white;
   width: $sizing-34;
-  box-shadow: $box-shadow-theme;
 
   &__header {
     position: relative;
-    border-radius: $border-radius-theme;
+    @include themify($themes) {
+      border-radius: themed(borderRadiusTheme);
+      background-color: themed(colorSecondary);
+    }
     padding: $spacing-12;
-    background-color: $color-secondary;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,15 +62,21 @@
     margin-top: $spacing-19;
     align-self: center;
     padding: 1.25rem 2rem;
-    border-radius: $border-radius-theme-cta;
+    @include themify($themes) {
+      border-radius: themed(borderRadiusThemeCTA);
+      box-shadow: themed(boxShadowThemeCTA);
+    }
+    // border-radius: $border-radius-theme-cta;
     text-align: center;
     text-transform: uppercase;
     color: $color-base-white;
-    background-color: $color-blue-700;
-    box-shadow: $box-shadow-theme-cta;
+    // box-shadow: $box-shadow-theme-cta;
 
     &--primary {
-      background-color: $color-primary;
+      @include themify($themes) {
+        background-color: themed(colorPrimary);
+      }
+      // background-color: $color-primary;
     }
   }
 
@@ -81,7 +93,10 @@
     margin-top: $spacing-19;
     align-self: center;
     padding: 0.75rem 1rem;
-    border-radius: $border-radius-theme;
+    @include themify($themes) {
+      border-radius: themed(borderRadiusTheme);
+    }
+    // border-radius: $border-radius-theme;
     text-align: center;
     text-transform: uppercase;
     color: $color-base-white;

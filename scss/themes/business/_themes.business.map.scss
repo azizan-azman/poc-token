@@ -1,0 +1,17 @@
+@import "./themes.business";
+$business: (
+  business: (
+    colorPrimary: $color-primary,
+    colorSecondary: $color-secondary,
+    borderRadiusTheme: $border-radius-theme,
+    borderRadiusThemeCTA: $border-radius-theme-cta,
+    boxShadowTheme: $box-shadow-theme,
+    boxShadowThemeCTA: $box-shadow-theme-cta,
+    // colorPrimary: $color-blue-700,
+    // colorSecondary: $color-gray-200,
+    // borderRadiusTheme: 0,
+    // borderRadiusThemeCTA: 0,
+    // boxShadowTheme: 0,
+    // boxShadowThemeCTA: 0,,
+  ),
+);

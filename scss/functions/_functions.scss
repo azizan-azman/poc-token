@@ -7,3 +7,7 @@
 @function shade-color($color, $weight) {
   @return mix(black, $color, $weight);
 }
+
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}

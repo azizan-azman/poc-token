@@ -1,0 +1,21 @@
+@import "./themes.casual";
+
+$casual: (
+  casual: (
+    colorPrimary: $color-primary,
+    colorSecondary: $color-secondary,
+    borderRadiusTheme: $border-radius-theme,
+    borderRadiusThemeCTA: $border-radius-theme-cta,
+    boxShadowTheme: $box-shadow-theme,
+    boxShadowThemeCTA: $box-shadow-theme-cta,
+    // colorPrimary: $color-violet-700,
+    // colorSecondary: $color-violet-100,
+    // borderRadiusTheme: $border-radius-5,
+    // borderRadiusThemeCTA: 9999px,
+    // boxShadowTheme: $box-shadow-5,
+    // boxShadowThemeCTA: (
+    //   0 10px 15px -3px rgba($color-primary, 0.7),
+    //   0 4px 6px -4px rgba($color-primary, 0.7)
+    // ),,
+  ),
+);

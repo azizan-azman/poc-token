@@ -6,7 +6,10 @@
     margin: 0 auto;
     // background-color: $color-gray-800;
     padding: $spacing-18;
-    border-radius: $border-radius-theme;
+    @include themify($themes) {
+      border-radius: themed(borderRadiusTheme);
+    }
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
