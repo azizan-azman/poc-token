@@ -1,8 +1,8 @@
 // Array of available themes
-const themes = ["casual", "business"];
+const themes = ["yellow", "blue"];
 
 const body = document.querySelector("body");
-body.setAttribute("class", "theme-casual");
+body.setAttribute("class", "theme-yellow");
 
 // Function to populate the theme dropdown
 function populateThemeDropdown() {

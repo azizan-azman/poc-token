@@ -1,3 +1,4 @@
+@import "variables/global/global";
 @import "variables/variables.border.border-radius";
 @import "variables/variables.border.border-width";
 @import "variables/variables.color";
@@ -17,9 +18,6 @@
 @import "functions/functions";
 
 @import "base/base";
-
-// @import "themes/themes.casual";
-// @import "themes/themes.business";
 
 @import "utils/utils-border";
 @import "utils/utils-color";

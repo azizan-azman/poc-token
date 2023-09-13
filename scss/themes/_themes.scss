@@ -1,26 +1,5 @@
-@import "./business/themes.business.map";
-@import "./casual/themes.casual.map";
+@import "./blue/themes.blue.map";
+@import "./red/themes.red.map";
+@import "./yellow/themes.yellow.map";
 
-$themes: map-merge($business, $casual);
-
-// $themes: (
-//   business: (
-//     colorPrimary: $color-blue-700,
-//     colorSecondary: $color-gray-200,
-//     borderRadiusTheme: 0,
-//     borderRadiusThemeCTA: 0,
-//     boxShadowTheme: 0,
-//     boxShadowThemeCTA: 0,
-//   ),
-//   casual: (
-//     colorPrimary: $color-violet-700,
-//     colorSecondary: $color-violet-100,
-//     borderRadiusTheme: $border-radius-5,
-//     borderRadiusThemeCTA: 9999px,
-//     boxShadowTheme: $box-shadow-5,
-//     boxShadowThemeCTA: (
-//       0 10px 15px -3px rgba($color-violet-700, 0.7),
-//       0 4px 6px -4px rgba($color-violet-700, 0.7),
-//     ),
-//   ),
-// );
+$themes: map-merge($blue, $yellow);

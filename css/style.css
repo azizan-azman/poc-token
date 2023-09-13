@@ -8,7 +8,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 80%;
 }
 
 body {
@@ -680,13 +680,13 @@ body {
   background-color: #ffffff;
   width: 24rem;
 }
-.theme-business .card {
-  border-radius: 0;
-  box-shadow: 0;
+.theme-blue .card {
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px 0px #000000;
 }
-.theme-casual .card {
-  border-radius: 0.75rem;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+.theme-yellow .card {
+  border-radius: 0.375rem;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 .card__header {
   position: relative;
@@ -695,13 +695,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.theme-business .card__header {
-  border-radius: 0;
+.theme-blue .card__header {
+  border-radius: 0px;
   background-color: #e5e7eb;
 }
-.theme-casual .card__header {
-  border-radius: 0.75rem;
-  background-color: #ede9fe;
+.theme-yellow .card__header {
+  border-radius: 0.375rem;
+  background-color: #fef9c3;
 }
 .card__header-img {
   height: 11rem;
@@ -740,19 +740,19 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-.theme-business .card__button {
-  border-radius: 0;
-  box-shadow: 0;
+.theme-blue .card__button {
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px 0px #000000;
 }
-.theme-casual .card__button {
+.theme-yellow .card__button {
   border-radius: 9999px;
-  box-shadow: 0 10px 15px -3px rgba(109, 40, 217, 0.7), 0 4px 6px -4px rgba(109, 40, 217, 0.7);
+  box-shadow: 0px 10px 15px -3px rgba(234, 179, 8, 0.7), 0px 4px 6px -4px rgba(234, 179, 8, 0.7);
 }
-.theme-business .card__button--primary {
+.theme-blue .card__button--primary {
   background-color: #1d4ed8;
 }
-.theme-casual .card__button--primary {
-  background-color: #6d28d9;
+.theme-yellow .card__button--primary {
+  background-color: #eab308;
 }
 .card__button-text {
   letter-spacing: 0.5em;
@@ -770,11 +770,11 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-.theme-business .card__tagging {
-  border-radius: 0;
+.theme-blue .card__tagging {
+  border-radius: 0px;
 }
-.theme-casual .card__tagging {
-  border-radius: 0.75rem;
+.theme-yellow .card__tagging {
+  border-radius: 0.375rem;
 }
 .card__tagging--normal {
   background-color: #9ca3af;
@@ -821,15 +821,15 @@ body {
   color: #ffffff;
   padding: 1.2rem 1rem;
 }
-.theme-business .theme-selector select {
+.theme-blue .theme-selector select {
   background-color: #1d4ed8;
-  border-radius: 0;
-  box-shadow: 0;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px 0px #000000;
 }
-.theme-casual .theme-selector select {
-  background-color: #6d28d9;
-  border-radius: 0.75rem;
-  box-shadow: 0 10px 15px -3px rgba(109, 40, 217, 0.7), 0 4px 6px -4px rgba(109, 40, 217, 0.7);
+.theme-yellow .theme-selector select {
+  background-color: #eab308;
+  border-radius: 0.375rem;
+  box-shadow: 0px 10px 15px -3px rgba(234, 179, 8, 0.7), 0px 4px 6px -4px rgba(234, 179, 8, 0.7);
 }
 .theme-selector select option {
   background: #ffffff;
@@ -848,11 +848,11 @@ body {
   grid-gap: 1rem;
   justify-items: center;
 }
-.theme-business .eeveelution__container {
-  border-radius: 0;
+.theme-blue .eeveelution__container {
+  border-radius: 0px;
 }
-.theme-casual .eeveelution__container {
-  border-radius: 0.75rem;
+.theme-yellow .eeveelution__container {
+  border-radius: 0.375rem;
 }
 .eeveelution__container:not(:last-child) {
   margin-bottom: 3rem;

@@ -1,0 +1,12 @@
+@import "./themes.yellow";
+
+$yellow: (
+  yellow: (
+    colorPrimary: $theme-color-primary,
+    colorSecondary: $theme-color-secondary,
+    borderRadiusTheme: $theme-border-radius-default,
+    borderRadiusThemeCTA: $theme-border-radius-cta,
+    boxShadowTheme: $theme-box-shadow-default,
+    boxShadowThemeCTA: $theme-box-shadow-cta,
+  ),
+);
